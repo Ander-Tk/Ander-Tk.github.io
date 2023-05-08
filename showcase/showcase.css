@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
-#ShowcaseFrame {width: 99vw!important; height: 99vh!important}
+#ShowcaseFrame {width: 98vw!important; height: 98vh!important; border: 2px solid white; border-radius: 6px;}
 
 .Float {
     position: fixed;
