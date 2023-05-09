@@ -3,13 +3,12 @@
 body{ margin: 0; background-color: #313131; }
 
 .frame-container{ 
-    background-color: #fff;
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
     min-height: 100vh!important;
 }
 
-#ShowcaseFrame {width: 98vw!important; height: 95vh!important; border: 2px solid white; border-radius: 6px;}
+#ShowcaseFrame {background-color: #fff; width: 98vw!important; height: 95vh!important; border: 2px solid white; border-radius: 6px;}
 
 .Float {
     position: fixed;
