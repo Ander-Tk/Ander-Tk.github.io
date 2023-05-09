@@ -1,0 +1,23 @@
+@use '../base/colors' as *;
+
+.Frontend-mentor{
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 20px; gap: 15px;
+
+    .card{
+        height: 250px; min-width: 250px;
+        a { min-height: 100%; }
+    }
+}
+
+.Frontend-mentor::-webkit-scrollbar {
+    background: color(--scrollbar);
+    border-radius: 3px;
+    height: 5px;
+}
+
+.Frontend-mentor::-webkit-scrollbar-thumb {
+    background: color(--silver);
+    border-radius: 3px;
+}

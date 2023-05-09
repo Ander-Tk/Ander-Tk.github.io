@@ -1,0 +1,43 @@
+.FloatBox {
+  position: absolute;
+  background: white;
+  border-radius: 10px;
+  height: 350px;
+  box-shadow: 0 0 5px black;
+}
+
+.Frontend-mentor {
+  display: flex;
+  overflow-x: scroll;
+  padding-bottom: 20px;
+  gap: 15px;
+}
+.Frontend-mentor .card {
+  height: 250px;
+  min-width: 250px;
+}
+.Frontend-mentor .card a {
+  min-height: 100%;
+}
+
+.Frontend-mentor::-webkit-scrollbar {
+  background: #919191;
+  border-radius: 3px;
+  height: 5px;
+}
+
+.Frontend-mentor::-webkit-scrollbar-thumb {
+  background: #EEEEEE;
+  border-radius: 3px;
+}
+
+body {
+  background-color: #F5F6F7;
+}
+
+.tk-hero {
+  background: linear-gradient(180deg, #313131 0%, #787878 100%);
+  min-height: 55vh;
+}
+
+/*# sourceMappingURL=main.css.map */

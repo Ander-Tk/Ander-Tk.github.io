@@ -1,0 +1,12 @@
+$palette: (
+    //Primary
+    --backcolor: #F5F6F7,
+    --darkgray: #313131,
+    --lightgray: #787878,
+    --silver: #EEEEEE,
+    --scrollbar: #919191,
+);
+
+@function color($color-name) {
+	@return map-get($palette, $color-name)
+}
